@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel = "stylesheet" href = "assets/css/userSearch.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="meal-wrapper">
+      <div class="search">
+        <h2 class="title">Find Meals With Ingredients Or Name</h2>
+        <p class="tag-line">Sharing love with a meal...</p>
+
+        <div class="search-box">
+          <input type="text" class = "search-input" placeholder="Enter an ingredient" id = "search-input">
+          <button type="submit" class = "search-btn btn" id = "search-btn">
+            Search
+          </button>
+        </div>
+      </div>
+
+
+      <div class="search-buttons">
+        <button id="breakfast-btn">Breakfast</button>
+        <button id="lunch-btn">Lunch</button>
+        <button id="dinner-btn">Dinner</button>
+        <button id="snack-btn">Desert</button>
+       </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+          <!-- Information to build javascript was here -->
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-exit-btn" id = "recipe-exit-btn">
+          X
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+          <!-- Information to build javascript was here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src = "assets/js/userSearch.js"></script>
+</body>
+</html>
